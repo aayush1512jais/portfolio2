@@ -330,15 +330,10 @@
     <section id="contact" class="contact">
       <div class="container">
         <h2 class="section-title">Get In Touch</h2>
-        <!-- Centered heading and description -->
-        <div class="contact-intro" style="text-align:center;max-width:600px;margin:0 auto 2rem auto;">
-          <h3 style="margin-bottom:0.5rem;">Let's Connect</h3>
-          <p style="margin-top:0;">I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
-        </div>
-        <div class="contact-content contact-flex">
-          <!-- Contact Info (links only) -->
+        <div class="contact-content">
           <div class="contact-info">
-            <!-- ...existing code for .contact-links... -->
+            <h3>Let's Connect</h3>
+            <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
             <div class="contact-links">
               
               <a href="https://www.linkedin.com/in/aayush--jaiswal/" target="_blank" class="contact-link"> 
@@ -359,69 +354,28 @@
                 </span>
                 GitHub
               </a>
-              <a href="mailto:aayush.jaiswal.official@gmail.com" class="contact-link">
+              <a href="mailto:aayushjaiswal911@gmail.com" class="contact-link">
                 <span class="contact-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect width="20" height="16" x="2" y="4" rx="2"/>
                     <path d="m22 7-10 5L2 7"/>
                   </svg>
                 </span>
-                aayush.jaiswal.official@gmail.com
+                aayushjaiswal911@gmail.com
               </a>
 
             </div>
           </div>
-          <!-- Circular Image Box on the right -->
-          <div class="contact-image">
-            <img 
-              src="./resume/ic.jpg" 
-              alt="Aayush Jaiswal" 
-              class="contact-img-responsive"
-            />
-          </div>
+          <!-- Add this form for the contact functionality -->
+          <!-- <form id="contactForm" style="margin-top:2rem;">
+            <input type="text" name="name" placeholder="Your Name" required style="margin-bottom:1rem;width:100%;padding:0.5rem;" />
+            <input type="email" name="email" placeholder="Your Email" required style="margin-bottom:1rem;width:100%;padding:0.5rem;" />
+            <textarea name="message" placeholder="Your Message" required style="margin-bottom:1rem;width:100%;padding:0.5rem;"></textarea>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+          </form> -->
         </div>
       </div>
     </section>
-    <style>
-/* Responsive Contact Section Styles */
-.contact-flex {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-}
-.contact-image {
-  flex-shrink: 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin-top: 1rem; /* Move image lower */
-}
-.contact-img-responsive {
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #444;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.20);
-  transition: box-shadow 0.2s;
-}
-@media (max-width: 700px) {
-  .contact-flex {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-  }
-  .contact-image {
-    margin-top: 1.5rem;
-    width: 100%;
-    justify-content: flex-start;
-  }
-  .contact-img-responsive {
-    width: 140px;
-    height: 140px;
-  }
-}
-</style>
 
     <!-- Footer -->
     <footer class="footer">
